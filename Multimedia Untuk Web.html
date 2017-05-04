@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Multimedia Untuk Web</title>
+		<link rel="stylesheet" href="style1.css" type="text/css">
+	</head>
+	
+	<body>
+		<table id="table" role="presentation">
+			<tr>
+				<th colspan="4" style="height:450px;color:white;font-size:36px" id="to_top"> </th>
+			</tr>
+			<tr>
+				<th id="navigation">Navigation </th>
+				<th id="navigation_text_2"><a href="home.html"> Home </a></th>
+				<th id="navigation_text_2"><a href="Gallery.html"> Gallery </a></th>
+				<th id="navigation_text_2"><a href="contact.html"> Contact </a></th>
+			</tr>
+			<tr>
+				<th id="navigation_image">
+					 <a href="Apa Itu HTML.html"><img src="logotype193-2.png" width="100" height="100"></a>
+				</th>
+				 <td id="main" colspan="3" rowspan="11">
+					<p>
+						Dalam multimedia untuk web, disini saya akan membahas 2 materi yang bersangkutan dengan multimedia untuk web.
+						<br>
+						Yaitu:
+						<ol type="a" style="font-family:times new roman;font-size:18px">
+							<b><li><a href="#multimedia">Format Tampilan Multimedia</a> </li>
+							<li><a href="#mapping">Image Mapping</a></li></b>
+						</ol>
+						<br>
+					</p>
+					<h2 style="text-align:center" id="multimedia">Format Tampilan Multimedia </h2>
+					<h4>1. Format Tampilan Gambar </h4>
+					<p>
+						&emsp;Untuk menampilkan gambar pada HTML, digunakan tag img yang kosong dan tidak memiliki tag penutup atau end tag.  
+						Berikut ini adalah kode penulisan kodenya yang dibedakan berdasarkan jenis formatnya:
+						<br>
+						<br>
+							<img src="m3.png" style="margin:0px auto;display:block">
+						<br>
+						Atribut src digunakan untuk menyatakan file gambar yang akan ditampilkan pada halaman web. 
+						<br>
+						<br>
+							<img src="m4.png" style="margin:0px auto;display:block">
+						<br>
+						Atribut alt digunakan sebagai teks pengganti untuk gambar ketika gambar 
+						tidak dapat ditampilkan pada browser. Format penulisan kodenya adalah sebagai berikut:
+						<br>
+						<br>
+							<img src="m5.png" style="margin:0px auto;display:block">
+						<br>
+							<img src="m6.png" style="margin:0px auto;display:block">
+						<br>
+						Untuk mengatur ukuran gambar yang akan ditampilkan, digunakan atribut width untuk lebar dan 
+						height untuk tinggi. Berikut adalah format penulisan kodenya:
+						<br>
+						<br>
+							<img src="m7.png" style="margin:0px auto;display:block">
+						<br>
+						Nilai dari width dan height selalu berupa angka yang mewakili ukuran gambar yang diinginkan dalam satuan pixel.
+					</p>
+					<h4>2. Format tampilan audio</h4>
+					<p>
+						Untuk menampilkan audio pada halaman web, digunakan tag &lt;audio&gt;, dengan kode pemrograman yang dibedakan 
+						berdasarkan formatnya:
+						<br>
+						<br>
+							<img src="m8.png" style="margin:0px auto;display:block">
+						<br>
+						Potongan kode berwarna merah tersebut adalah atribut controls yang ditambahkan ke dalam tag audio 
+						untuk menampilkan bar kontrol dari file audio yang akan diputar pada halaman web. Elemen tag audio terdiri 
+						atas tag source yang digunakan untuk menentukan file audio yang akan diputar. Atribut autoplay ditambahkan 
+						agar file audio dapat langsung diputar secara otomatis ketika halaman web ditampilkan.
+						Format penulisan:
+						<br>
+						<br>
+							<img src="m9.png" style="margin:0px auto;display:block">
+						<br>
+						Atribut loop ditambahkan agar file audio dapat diputar berulang-ulang secara otomatis. Format penulisan:
+						<br>
+						<br>
+							<img src="m10.png" style="margin:0px auto;display:block">
+					</p>
+					<h4>3. Format tampilan video</h4>
+					<p>
+						Untuk menampilkan video, digunakan tag &lt;video&gt;, dengan kode pemrograman yang dibedakan berdasarkan formatnya, 
+						seperti berikut:
+						<br>
+						<br>						
+							<img src="m11.png" style="margin:0px auto;display:block">
+						<br>
+						Untuk mengatur ukuran video, digunakan atribut width dan height yang ditambahkan dalam tag &lt;video&gt;, 
+						dengan format sebagai berikut:
+						<br>
+						<br>
+							<img src="m12.png" style="margin:0px auto;display:block">
+						<br>
+						Dimana xxxx merupakan angka yang mewakili ukuran lebar dan tinggi dari video yang akan ditampilkan dalam satuan pixel.
+						<br>
+						Atribut autoplay dan loop masing-masing digunakan untuk memutar video langsung saat halaman web ditampilkan dan memutar 
+						video terus-menerus. Format penulisan:
+						<br>
+						<br>
+							<img src="m13.png" style="margin:0px auto;display:block">
+					</p>
+					<h2 style="text-align:center" id="mapping">Image mapping</h2>
+					<p>
+						&emsp;Image mapping adalah memetakan area-area tertentu pada suatu gambar menggunakan titik koordinat dan menghubungkannya ke 
+						link-link berbeda. Image mapping pada HTML dipetakan menjadi tiga macam area berbeda, yaitu rect untuk area 
+						berbentuk segiempat, circle untuk area berbentuk lingkaran, dan poly untuk area berbentuk segi sembarang. 
+						Untuk mengubah gambar biasa menjadi image map, ditambahkan atribut usemap pada tag &lt;img&gt;, dengan format sebagai 
+						berikut:
+						<br>
+						<br>
+						<img src="mu1.png" style="margin:0px auto;display:block">
+						<br>
+						Pada atribut usemap, ditambahkan value tanda hashmark (#) yang diikuti nama dari map yang akan dibuat.
+						Untuk membagi area image, ditambahkan tag map dan area yang saling terkait, dengan format sebagai berikut:</br>
+					</p>
+					<h4>1. Untuk area berbentuk segiempat</h4>
+						<br>	
+							<img src="mu2.png" style="margin:0px auto;display:block">
+						<br>
+					<p>
+						Dimana nilai (x1,y1) adalah koordinat untuk titik sudut kiri-atas dan nilai (x2,y2) 
+						adalah koordinat untuk titik sudut kanan-bawah dari area segiempat yang dipetakan.
+						<br>
+						<br>
+							<img src="mu3.png" style="margin:0px auto;display:block">
+					</p>
+					<h4>2. Untuk area lingkaran</h4>
+						<br>
+							<img src="mu4.png" style="margin:0px auto;display:block">
+					<p>
+						Dimana x dan y adalah titik koordinat pusat lingkaran dan r adalah jari-jari yang diperoleh selisih antara titik pusat 
+						dan titik terluar lingkaran.
+						<br>
+						<br>
+							<img src="mu5.png" style="margin:0px auto;display:block">
+					</p>
+					<h4>3. Untuk area segi sembarang</h4>
+						<br>
+							<img src="mu6.png" style="margin:0px auto;display:block">
+						<br>
+					<p>
+						Dimana value pada atribut coords adalah titik koordinat (x,y) untuk setiap titik sudut area poly yang ingin dipetakan.
+						<br>
+						<br>
+							<img src="mu7.png" style="margin:0px auto;display:block">
+						<br>
+						<b>Untuk menghubungkan antara tag &lt;map&gt; dan tag &lt;img&gt; yang akan dipetakan, nilai dari atribut usemap pada tag &lt;img&gt; dan atribut name pada tag &lt;map&gt; harus SAMA.
+					</p>
+					<h3 style="font-family:algerian"> <a href="#to_top"> BACK TO TOP </a></h3>
+				</td>
+			</tr>
+			<tr>
+				<th id="navigation_text_1">
+				<a href="Apa Itu HTML.html"> Apa itu HTML?? </a>
+				 </th>
+			</tr>
+			<tr>
+				<th id="navigation_image">
+					<a href="pemformatan teks dan list.html"><img src="resize11.png" width="100" height="100"></a>
+				</th>
+			</tr>
+			<tr>
+				<th id="navigation_text_1">
+				<a href="pemformatan teks dan list.html">Pemformatan Teks dan List</a>
+				</th>
+			</tr>
+			<tr>
+				<th id="navigation_image">
+					<a href="tabel.html"><img src="spreadsheet4.png" width="100" height="100"></a>
+				</th>
+			</tr>
+			<tr>
+				<th id="navigation_text_1">
+					<a href="tabel.html">Tabel</a>
+				</th>
+			</tr>
+			<tr>
+				<th id="navigation_image_2">
+					<img src="play-button4.png" width="100" height="100">
+				</th>
+			</tr>
+			<tr>
+				<th id="navigation_text_1_2">
+				Multimedia untuk web
+				</th>
+			</tr>
+			<tr>
+				<th id="navigation_image">
+					<a href="hyperlink.html"><img src="link67.png" width="100" height="100"></a>
+				</th>
+			</tr>
+			<tr>
+				<th id="navigation_text_1">
+				<a href="hyperlink.html">Hyperlink</a>
+				</th>
+			</tr>
+			<tr>
+				<th id="navigation_text_1_3" style="height:3200px">
+				</th>
+			</tr>
+			<tr>
+				<th id="footer" colspan="4">&copy;IlhamIzzulHadyan_14_X RPL 2 </th>
+			</tr>
+		</table>
+		
+	</body>
+</html>
+			

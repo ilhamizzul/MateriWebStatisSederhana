@@ -1,0 +1,81 @@
+			body {height:200px;
+				background-image:url(wallpaper-web-background-general-desktop-abstract-107149_8.jpg);
+				background-repeat: repeat-x;
+				background-color:#9861b2}
+				
+			#navigation_text_1 {background-color: #e9943a ;
+							color:black;
+							font-family:times new roman;
+							height:40px;
+							}
+							
+			#navigation_text_1:hover {background-color: #c47116 ;
+							color:white;
+							font-family:times new roman;
+							height:40px;
+							border-bottom: 3px solid white;
+							}
+							
+			#navigation_text_1_2 {background-color: #c47116 ;
+								color:black;
+								font-family:times new roman;
+								height:40px}
+			#navigation_text_1_3 {background-color: #e9943a ;
+								color:black;
+								font-family:times new roman;
+								}
+			#navigation_text_1_5 {background-color: #e9943a ;
+								color:black;
+								font-family:times new roman;
+								height:3500px}					
+			#navigation_text_1_4{background-color: #e9943a ;
+								color:black;
+								font-family:times new roman;
+								height:1700px}
+							
+			#navigation_text_2 {background-color:#45a5ed;
+								color:black;
+								width:200px;}
+			#navigation_text_2:hover{
+								background-color:#482cbc;
+			}
+								
+								
+			a {text-decoration:none;}
+			
+			a:link {color:black;}
+			
+			a:visited{color:black;}
+			
+			a:hover{color:white;}
+								
+			#navigation_text_2_1 {background-color:#482cbc;
+									width:200px}
+									
+			#navigation {background-color:black;
+						height:40px;
+						width:150px;
+						color:white;
+						position:relative;}
+						
+			#main {background-color:#8784c7;
+				color:black;
+				vertical-align:top;
+				padding-left: 30px;
+				padding-right:30px}
+				
+			#navigation_image {background-color: #ff5f3c}
+			
+			#navigation_image:hover {background-color: #ca411c}
+			
+			#navigation_image_2 {background-color: #ca411c }
+			
+			#footer {background-color:#1976D2;
+					height:100px}
+					
+			#table {width:100%;
+					margin:0px auto;
+					}
+			p {font-family: times new roman;
+			  font-size:18px;}
+			
